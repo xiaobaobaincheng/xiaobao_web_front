@@ -19,7 +19,7 @@ dva+react+webpack构建小宝编程前端展示网站
     }
 ```
 
-![骨架屏](https://user-gold-cdn.xitu.io/2020/1/21/16fc6ffb8c07621f?w=1920&h=969&f=png&s=262952)
+![骨架屏](https://github.com/xiaobaobaincheng/xiaobao_web_front/tree/master/public/preview_img/1_1.png)
 
 - 列表无限加载，并没有使用antd提供的list组件（这个组件特鸡肋，改造了一版，一会更新上）。这里我是用了react-infinite-scroll-component插件，还不错。
 ```
@@ -85,7 +85,7 @@ dva+react+webpack构建小宝编程前端展示网站
     );
 ```
 
-![博客首页](https://user-gold-cdn.xitu.io/2020/1/21/16fc6ff2de230eee?w=1920&h=969&f=png&s=336411)
+![博客首页](https://github.com/xiaobaobaincheng/xiaobao_web_front/tree/master/public/preview_img/1.png)
 
 - 下面说下图片懒加载，具体代码如下
 ```
@@ -112,21 +112,21 @@ function LazyImgComponent ({
 export default LazyImgComponent;
 ```
 
-![封面图懒加载](https://user-gold-cdn.xitu.io/2020/1/21/16fc700100b210fe?w=1920&h=969&f=png&s=233400)
+![封面图懒加载](https://github.com/xiaobaobaincheng/xiaobao_web_front/tree/master/public/preview_img/1_2.png)
 
 ### 详情页功能：详情页预览，评论、点赞、收藏
 
-![详情页内容](https://user-gold-cdn.xitu.io/2020/1/21/16fc706e067bc9a1?w=1920&h=969&f=png&s=694214)
+![详情页内容](https://github.com/xiaobaobaincheng/xiaobao_web_front/tree/master/public/preview_img/2.png)
 
-![评论](https://user-gold-cdn.xitu.io/2020/1/21/16fc707189a97331?w=1920&h=969&f=png&s=158669)
+![评论](https://github.com/xiaobaobaincheng/xiaobao_web_front/tree/master/public/preview_img/2_1.png)
 
 ### 登录页面
 
-![登录页](https://user-gold-cdn.xitu.io/2020/1/21/16fc7077c489264a?w=1920&h=969&f=png&s=2771761)
+![登录页](https://github.com/xiaobaobaincheng/xiaobao_web_front/tree/master/public/preview_img/3.png)
 
 ###  文章发布系统管理页面，实现功能：文集（增删改查），文章（增删改查，移动文章），设置编辑器（富文本、markdown）
 - UI样式是根据简书的样式手撸的代码，实现的功能基本一致
 - 编辑器采用两种（富文本、markdown）,富文本是百度的ueditor,markdown是一个开源的插件（react-markdown-editor-lite）
 
-![新建文章](https://user-gold-cdn.xitu.io/2020/1/21/16fc708032738802?w=1920&h=969&f=png&s=72722)
-![查看文章](https://user-gold-cdn.xitu.io/2020/1/21/16fc70810ee2fcc0?w=1920&h=969&f=png&s=235968)
+![新建文章](https://github.com/xiaobaobaincheng/xiaobao_web_front/tree/master/public/preview_img/5.png)
+![查看文章](https://github.com/xiaobaobaincheng/xiaobao_web_front/tree/master/public/preview_img/4.png)
