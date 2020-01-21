@@ -1,0 +1,7 @@
+.for-toolbar{
+    position: absolute;
+    top: 0;
+}
+.for-editor{
+    overflow-y: auto;
+}

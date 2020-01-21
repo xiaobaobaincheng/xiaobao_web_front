@@ -1,0 +1,102 @@
+.container{
+    padding: 10px 0;
+    display: flex;
+    .fixed_menu{
+        width: 100px;
+        height: 400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .item{
+            font-size: 14px;
+            margin: 10px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #969696;
+            .icon{
+                width: 48px;
+                height: 48px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                font-size: 20px;
+                border-radius: 50%;
+                background-color: #fff;
+                margin-bottom: 5px;
+                box-shadow: 0 2px 10px rgba(0,0,0,.05);
+            }
+        }
+    }
+    .content{
+        margin: 0px 10px;
+        flex: 1;
+        background-color: #ffffff;
+        padding: 20px;
+        .title_wrap{
+            margin-bottom: 20px;
+            .title{
+                font-size: 30px;
+                font-weight: 700;
+                word-break: break-word;
+            }
+        }
+        .author_info_block{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+            font-size: 13px;
+            .avatar{
+                width: 50px;
+                height: 50px;
+                border: 1px solid #cccccc;
+            }
+            .author_info_box{
+                flex: 1;
+                margin: 0 10px;
+                display: flex;
+                flex-direction: column;
+                .username{
+                    max-width: 100%;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: #333;
+                    height: 30px;
+                }
+                .meta_box{
+                    height: 20px;
+                    span{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        .article_content{
+            font-weight: 400;
+            font-size: 15px;
+            margin-bottom: 20px;
+            line-height:1.5;
+            color: #333;
+            p{
+                line-height: inherit;
+                margin-top: 22px;
+                margin-bottom: 22px;
+            }
+            img{
+                max-width: 100%;
+            }
+        }
+        .comment{
+            border-top: 1px solid #f1f1f1;
+            margin: 30px 0;
+            padding-top: 30px;
+        }
+    }
+    .right_box{
+        width:300px;
+    }
+}

@@ -1,0 +1,36 @@
+.menu_list{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    .item{
+        flex: 1;
+        padding: 8px 0;
+        display: block;
+        height: 40px;
+        margin: 2px 5px;
+        font-size: 14px;
+        text-align: center;
+        color: #71777c;
+        cursor: pointer;
+    }
+    .item:hover{
+        color: #007fff;
+        font-weight: bold;
+    }
+    .item.active{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #007fff;
+    }
+    .item.active:hover{
+        color: #ffffff;
+    }
+    .back_top{
+        position: fixed;
+        position: fixed;
+        right: auto;
+        margin-right: -80px;
+        z-index: 9999;
+    }
+}

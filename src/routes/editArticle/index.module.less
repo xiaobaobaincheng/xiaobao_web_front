@@ -1,0 +1,46 @@
+.container{
+    height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+    .slider{
+        display: flex;
+        height: 100%;
+    }
+    .content_box{
+        display: flex;
+        height: 100%;
+        .content{
+            margin-left: 8px;
+            background-color: #ffffff;
+            .title{ 
+                display: flex;
+                align-items: center;
+                border-bottom: 1px solid #dddddd;
+                input{
+                    flex: 1;
+                    height: 60px;
+                    padding: 10px 10px;
+                    margin-right: 10px;
+                    border: none;
+                    outline:none;
+                    font-size: 18px;
+                    font-weight: bold;
+                    overflow: hidden;
+                }
+                input:focus{
+                    border: none;
+                    box-shadow: none;
+                }
+                .save_status{
+                    margin-right: 10px;
+                }
+            }
+            .editor_box{
+                overflow: auto;
+                height: calc(~"100vh - 65px");
+            }
+        }
+    }
+}
+
+

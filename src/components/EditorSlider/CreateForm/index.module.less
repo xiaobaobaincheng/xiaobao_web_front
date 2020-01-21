@@ -1,0 +1,28 @@
+.create_form{
+    margin: 10px 0 10px;
+    .button{
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+    }
+    .form{
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        background-color: #1a2229;
+        transition: height .5s , opacity .5s;
+        .input{
+            margin: 10px;
+        }
+        .button_group{
+            margin: 0 10px 10px;
+            button{
+                margin-right: 10px;
+            }
+        }
+    }
+    .form.block{
+        height:90px;
+        opacity: 1;
+    }
+}

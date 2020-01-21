@@ -1,2 +1,13 @@
 {
+    "entry": "src/index.js",
+    "disableCSSModules":false,
+    "theme": "src/theme/index.js",
+    "extraBabelPlugins": [
+        ["import", {
+        "libraryName": "antd",
+        "libraryDirectory": "es",
+        "style": true
+        }]
+    ]
 }
+
